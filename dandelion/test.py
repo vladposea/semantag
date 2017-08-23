@@ -1,0 +1,4 @@
+# -*- coding: utf-8 -*-
+testString="""
+Air pollution harms human health and the environment. In Europe, emissions of many air pollutants have decreased substantially over the past decades, resulting in improved air quality across the region. However, air pollutant concentrations are still too high, and air quality problems persist. A significant proportion of Europe's population live in areas, especially cities, where exceedances of air quality standards occur: ozone, nitrogen dioxide and particulate matter (PM) pollution pose serious health risks. Several countries have exceeded one or more of their 2010 emission limits for four important air pollutants. Reducing air pollution therefore remains important.
+"""
