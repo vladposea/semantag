@@ -3,47 +3,174 @@
 	{
 		"selected_items":
 		[
+			[
+				"uri",
+				"uriArticle\tparam"
+			],
+			[
+				"find",
+				"find\tfunction"
+			],
+			[
+				"imp",
+				"importfromDump\tfunction"
+			],
+			[
+				"delete_",
+				"delete_one\tfunction"
+			],
+			[
+				"sor",
+				"sortingTest\tstatement"
+			],
+			[
+				"pp",
+				"pprint\tfunction"
+			],
+			[
+				"json",
+				"jsonobj\tstatement"
+			],
+			[
+				"tes",
+				"testString\tstatement"
+			],
+			[
+				"test",
+				"testString\tinstance"
+			],
+			[
+				"H",
+				"HTTPSConnection\tclass"
+			],
+			[
+				"HTT",
+				"httplib\tmodule"
+			],
+			[
+				"Dat",
+				"DataTXT\tclass"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "dandelion/testDandelion.py",
+			"file": "parseDump.py",
 			"settings":
 			{
-				"buffer_size": 13,
+				"buffer_size": 1502,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "dandelion/anotherTest.py",
+			"file": "testDump",
 			"settings":
 			{
-				"buffer_size": 11,
+				"buffer_size": 48077,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config.py",
+			"settings":
+			{
+				"buffer_size": 227,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "mongotest.py",
+			"settings":
+			{
+				"buffer_size": 611,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dandelion/testDandelion.py",
+			"settings":
+			{
+				"buffer_size": 3968,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "meaningCloud/testmeaningCloud.py",
+			"settings":
+			{
+				"buffer_size": 3163,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dandelion/test.py",
+			"settings":
+			{
+				"buffer_size": 34380,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
 	],
-	"build_system": "",
+	"build_system": "Packages/Python/Python.sublime-build",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
 	],
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "git",
+		"height": 324.0,
+		"last_filter": "lint",
 		"selected_items":
 		[
 			[
-				"git",
-				"Git: Status"
+				"lint",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"pret",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
 			],
 			[
 				"git ",
-				"Git: Push"
+				"Git: Fetch"
+			],
+			[
+				"git",
+				"Git: Status"
 			],
 			[
 				"git c",
@@ -103,15 +230,28 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/vlad/semantag"
+		"/C/Users/vlad/semantag",
+		"/C/Users/vlad/semantag/dandelion",
+		"/C/Users/vlad/semantag/meaningCloud"
 	],
 	"file_history":
 	[
+		"/C/Users/vlad/semantag/meaningCloud/testmeaningCloud.py",
+		"/C/Users/vlad/semantag/dandelion/testDandelion.py",
+		"/C/Users/vlad/semantag/meaningCloud/test.py",
+		"/C/Users/vlad/semantag/dandelion/result",
+		"/C/Users/vlad/semantag/config.py",
+		"/C/Users/vlad/semantag/_init__.py",
+		"/C/Users/vlad/semantag/dandelion/__init__.py",
+		"/C/Users/vlad/semantag/dandelion/test.py",
+		"/C/Users/vlad/semantag/meaningCloud/results",
+		"/C/Users/vlad/semantag/meaningCloud/test.txt",
+		"/C/Users/vlad/semantag/dandelion/anotherTest.py",
 		"/C/Users/vlad/Dropbox/proiecte/dandelion.py"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -125,6 +265,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"print",
+			"]\n",
+			"sortingTest",
+			"annotation"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -132,6 +276,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"value"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -142,24 +287,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "dandelion/testDandelion.py",
+					"file": "parseDump.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13,
+						"buffer_size": 1502,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13,
-								13
+								67,
+								67
 							]
 						],
 						"settings":
@@ -175,31 +320,169 @@
 									"selector": "source.python - string - constant.numeric"
 								}
 							],
-							"auto_name": "",
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 30.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "testDump",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 48077,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48077,
+								48077
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 29117.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "config.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								32
+							]
+						],
+						"settings":
+						{
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "mongotest.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 611,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14,
+								14
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "dandelion/testDandelion.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3968,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3548,
+								3968
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1585.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "dandelion/anotherTest.py",
+					"buffer": 5,
+					"file": "meaningCloud/testmeaningCloud.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11,
+						"buffer_size": 3163,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11,
-								11
+								2564,
+								2564
 							]
 						],
 						"settings":
@@ -207,22 +490,52 @@
 							"auto_complete_triggers":
 							[
 								{
-									"characters": "<",
-									"selector": "text.html"
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
 								},
 								{
 									"characters": ".",
 									"selector": "source.python - string - constant.numeric"
 								}
 							],
-							"auto_name": "",
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1245.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "dandelion/test.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 34380,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5353,
+								5353
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 765.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -230,7 +543,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -259,6 +572,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 262.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -271,7 +588,7 @@
 	"project": "semantag.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -280,6 +597,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"dandelion\\testDandelion.py"
+			]
 		],
 		"width": 0.0
 	},

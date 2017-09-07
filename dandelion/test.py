@@ -428,5 +428,5 @@ sortingTest={   u'http://dbpedia.org/resource/Abiogenesis': {   'confidence': 0.
                                                          'label': u'World population',
                                                          'spots': [   u'population']}}
 
-print len(sortingTest)     
-print sorted(sortingTest, key=lambda x:(sortingTest[x]['count'],sortingTest[x]['confidence']), reverse=True)                                                    
+#print len(sortingTest)     
+#print sorted(sortingTest, key=lambda x:(sortingTest[x]['count'],sortingTest[x]['confidence']), reverse=True)                                                    
